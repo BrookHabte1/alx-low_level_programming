@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - Displaying sizeof data types.
+(*
+ * Return: 0 on success
+ */
 int main(void)
 {
 printf("Size of a char: %zu byte(s)\n", sizeof(char));
