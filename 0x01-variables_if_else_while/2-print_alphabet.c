@@ -11,12 +11,11 @@
  */
 int main(void)
 {
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
+char x;
 for(int x = 'a'; x <= 'z'; x++)
 {
 putchar(x);
+putchar("\n");
 }
 return (0);
 }
