@@ -10,7 +10,7 @@ int x;
 int y;
 for (x = 0 ; x < 9 ; x++)
 {
-for (y = 1 ; y < 10 ; y++)
+for (y = 1 ; x < 10 ; y++)
 {
 putchar(x + 48);
 putchar(y + 48);
