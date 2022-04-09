@@ -1,23 +1,26 @@
 #include <stdio.h>
+
 /**
- * main - Lowercase Letters!.
-(*
- * Return: 0 on success
- */
+ *main - Prints combinations of decimal digits using only putchar
+ *
+ *Description: Prints combinations of decimal digits using only putchar
+ *Return: 0
+*/
 int main(void)
 {
-int x;
-int y;
-for (x = 0 ; x < 9 ; x++)
+int i;
+int j;
+for (i = 48; i <= 57; i++)
 {
-for (y = 1 ; x < 10 ; y++)
+for (j = i + 1; j <= 57; j++)
 {
-putchar(x + 48);
-putchar(y + 48);
-if (x == 8 && y == 9)
-continue;
+putchar(i);
+putchar(j);
+if (!(i == 56 && j == 57))
+{
 putchar(',');
 putchar(' ');
+}
 }
 }
 putchar('\n');
