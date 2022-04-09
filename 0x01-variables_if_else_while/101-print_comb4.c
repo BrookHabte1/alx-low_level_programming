@@ -1,11 +1,12 @@
 #include <stdio.h>
+/* more headers goes there */
 
+/* betty style doc for function main goes there */
 /**
- *main - Prints combinations of distinct 3 decimal digits using only putchar
- *
- *Description: Prints combinations of distinct 3 digits using only putchar
- *Return: 0
-*/
+ * main - positive or negative.
+(*
+ * Return: 0 on success
+ */
 int main(void)
 {
 int i;
