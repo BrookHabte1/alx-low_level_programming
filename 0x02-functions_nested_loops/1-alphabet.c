@@ -1,16 +1,15 @@
 #include "main.h"
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 /**
- * main - positive or negative.
+ * print_alphabet - Lowercase letters.
 (*
  * Return: 0 on success
  */
 void print_alphabet(void)
 {
 char a;
-for (a = 'a'; a <= 'z'; a ++)
-_putchar(a);
-_putchar('\n');
+for (a = 'a'; a <= 'z'; a++)
+{
+putchar(a);
+}
+putchar('\n');
 }
