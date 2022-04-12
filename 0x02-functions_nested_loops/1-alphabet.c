@@ -13,9 +13,3 @@ char a;
 for (a = 'a'; a <= 'z'; a ++)
 putchar(a);
 }
-int main()
-{
-print_alphabet();
-putchar('\n');
-return 0;
-}
