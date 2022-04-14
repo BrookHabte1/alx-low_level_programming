@@ -1,24 +1,26 @@
 #include "main.h"
+
 /**
- * print_diagonal - prints the numbers from 0 to 14 times 10.
- *@n: character
+ * print_diagonal - printing in diagonal
+ * @n: input
  *
- * Return: Nothing.
+ * Return: void
  */
+
+
 void print_diagonal(int n)
 {
-int a, b;
-if (n > 0)
+int i, j;
+if (n <= 0)
+_putchar('\n');
+for (i = 0 ; i < n ; i++)
 {
-for (a = 0; a < n; a++)
-{
-for (b = 0; b < a; b++)
+for (j = 0 ; j < i ; j++)
 {
 _putchar(' ');
 }
 _putchar('\\');
 _putchar('\n');
 }
-}
-_putchar('\n');
+
 }
