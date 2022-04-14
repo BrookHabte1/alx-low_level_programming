@@ -12,11 +12,11 @@ while (b <10)
 {
 for (a = 0 ; a <= 14 ; a++)
 {
-if (i >= 10)
+if (a >= 10)
 {
 _putchar('1');
 }
-_putchar(i % 10 + 48);
+_putchar(a % 10 + 48);
 }
 _putchar('\n');
 b++;
