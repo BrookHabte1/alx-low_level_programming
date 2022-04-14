@@ -2,7 +2,6 @@
 /**
  * print_numbers - prints numbers.
  *
- *@a: character.
  * Return: 0 on success.
  */
 void print_numbers(void)
