@@ -2,12 +2,12 @@
 /**
  * more_numbers - prints the numbers from 0 to 14 times 10.
  *
- * Return: Nothing!
+ * Return: Nothing.
  */
 void more_numbers(void)
 {
-int a, b;
-a = 0;
+int a = 0;
+int b;
 while (a <10)
 {
 for (b = 0 ; b <= 14 ; b++)
