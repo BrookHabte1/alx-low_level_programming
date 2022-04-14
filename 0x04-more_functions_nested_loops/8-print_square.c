@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * print_diagonal - printing in diagonal
- * @n: input
+ * print_square - printing square
+ * @size: character
  *
- * Return: void
+ * Return: nothing.
  */
-void print_diagonal(int n)
+void print_square(int size)
 {
 int i, j;
-if (n <= 0)
+if (size <= 0)
 _putchar('\n');
-for (i = 0 ; i <size ; i++)
+for (i = 0 ; i < size ; i++)
 {
 for (j = 0 ; j < size ; j++)
 {
