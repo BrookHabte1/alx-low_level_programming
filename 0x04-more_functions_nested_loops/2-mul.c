@@ -1,16 +1,13 @@
 #include "main.h"
 /**
- * _isdigit - check if digit.
+ * mul - multplies two digits.
  *
- *@a: first number.
- *@b: second number.
- *@c: multiplication of the two numbers.
+ *@a: character.
+ *@b: character.
  *
  * Return: 0 on success.
  */
 int mul(int a, int b)
 {
-int c;
-c = a * b;
-return (c);
+return (a * b);
 }
