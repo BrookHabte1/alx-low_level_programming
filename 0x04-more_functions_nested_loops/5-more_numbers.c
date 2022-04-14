@@ -20,6 +20,6 @@ _putchar('1');
 _putchar(b % 10 + 48);
 }
 a++;
-}
 _putchar('\n');
+}
 }
