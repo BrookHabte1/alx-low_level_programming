@@ -3,7 +3,7 @@
 
 /**
  * main - check the code.
- *@c char
+ *@c: character
  * Return: Always 0.
  */
 int _isupper(int c)
