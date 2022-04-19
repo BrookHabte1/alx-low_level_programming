@@ -1,13 +1,14 @@
 #include "main.h"
 /**
- *swap_int - swaps the valur of teo integers.
- *@x: digit.
- *@a: pointer.
- *@b: pointer.
- *Return: it eill not return anything./\
+ * swap_int - swap the value of two integers using pointer.
+ *@n: digit.
+ *@a: pointer
+ *@b: pointer
+ * Return: it will not return anything.
  */
-void swap_int(int *a, int *b) {
-
-int x = *a;
+void swap_int(int *a, int *b)
+{
+int n = *a;
 *a = *b;
-*b = x; }
+*b = n;
+}
