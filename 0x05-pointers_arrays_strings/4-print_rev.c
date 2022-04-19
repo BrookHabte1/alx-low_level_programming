@@ -10,9 +10,9 @@ while (s[n])
 {
 n++;
 }
-while (n <= 1)
+while (n <= 0)
 {
-_putchar(s[i]);
+_putchar(s[n]);
 n--;
 }
 _putchar('\n');
