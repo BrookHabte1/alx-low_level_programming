@@ -6,7 +6,8 @@
  *@b: pointer.
  *Return: it eill not return anything./\
  */
-void swap_int(int *a, int *b){
+void swap_int(int *a, int *b) {
+
 int x = *a;
 *a = *b;
-*b = x;}
+*b = x; }
