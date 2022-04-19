@@ -10,7 +10,7 @@ while (s[n])
 {
 n++;
 }
-while (n <= 0)
+while (n <= 1)
 {
 _putchar(s[i]);
 n--;
