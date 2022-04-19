@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * swap_int - swap the value of two integers using pointer.
- *@n: digit.
  *@a: pointer
  *@b: pointer
  * Return: it will not return anything.
